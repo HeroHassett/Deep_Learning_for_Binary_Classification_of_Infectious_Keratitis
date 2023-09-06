@@ -9,8 +9,8 @@ import os
 num_classes = 2
 input_shape = (256, 256, 3)
 
-path = '/Users/alexk/PycharmProjects/WSSEF_Project/data'
-os.chdir("/Users/alexk/PycharmProjects/WSSEF_Project/data")
+path = '/Users/alexk/Documents/GitHub/Deep_Learning_for_Binary_Classification_of_Infectious_Keratitis/data'
+os.chdir("/Users/alexk/Documents/GitHub/Deep_Learning_for_Binary_Classification_of_Infectious_Keratitis/data")
 
 train_ds = tf.keras.utils.image_dataset_from_directory(
     path,
